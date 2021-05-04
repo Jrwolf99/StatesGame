@@ -4,6 +4,7 @@
 typedef struct State{
     char name[20];
     char capital[20];
+    int dirty_bit;
 }State;
 
 
