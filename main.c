@@ -117,8 +117,10 @@ int main() {
         int question_to_ask = check_if_asked_before();
         score = prompt_question(question_to_ask, score);
         printf("Score: %d/%d\n\n", score, questions_asked+1);
-
-
     }
+
+    printf("Congratulations! you have finished with a score of: %d/50\n\n\n", score);
+
+
     return 0;
 }
