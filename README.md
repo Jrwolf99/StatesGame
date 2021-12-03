@@ -8,6 +8,6 @@ open the project directory in the terminal and type
 # Additional info:
 This application compiles using gcc through a makefile. 
 if a gcc compiler is installed with make, you can create
-the executable by opening the project file in a terminal, 
+the executable by opening the project file in a terminal 
 and typing "make".
 
