@@ -1,6 +1,6 @@
 
-output: run
-	gcc main.c -o run
+run: main.c
+	gcc -o run main.c
 
 clean: 
 	rm *.o run
