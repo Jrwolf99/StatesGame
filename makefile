@@ -1,5 +1,5 @@
 
-output: main.o
+output: run
 	gcc main.c -o run
 
 clean: 
